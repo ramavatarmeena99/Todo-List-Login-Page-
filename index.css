@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: "Roboto Serif", sans-serif;
+}
+.loginPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 70%;
+  height: auto;
+  animation: coolAnimation 1.5s;
+  left: 0px;
+  top: 0px;
+  background-color: aliceblue;
+}
+@keyframes coolAnimation {
+  from {
+    height: 0vh;
+    /* position: fixed; */
+  }
+  to {
+    height: 100vh;
+  }
+}
+.closeBtn{
+
+    position: relative;
+    /* background-color: blue; */
+  }
+  .canclebtn {
+    position: fixed;
+     width: 60px;
+    height: 60px; 
+    right: 0px;
+    top: 0px;
+    bottom: 100%;
+    cursor: pointer;
+  
+  }
+.mainDiv {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 100%;
+  height: 10vh;
+  background-color: lightblue;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  /* position: fixed; */
+}
+/* .icon{
+    width: 100%;
+    height: 100%;
+} */
+.icon img {
+  width: 6vh;
+  height: 50%;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+.home {
+  font-weight: 200;
+  margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+.title {
+  width: 100%;
+  height: 30%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+  padding-bottom: 20px;
+}
+h2 {
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 600;
+}
+h3 {
+  margin-top: 0px;
+  font-weight: 200;
+}
+
+.socialMedia {
+  width: 100%;
+  height: 10vh;
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first {
+  width: 5%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 25px;
+  cursor: pointer;
+}
+.first:hover{
+    background-color: blue;
+    color: black;
+    border: 1px solid black;
+}
+.second {
+  width: 5%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 25px;
+  cursor: pointer;
+}
+.second:hover{
+    background-color: brown;
+    color: black;
+    border: 1px solid black;
+}
+p {
+  font-size: 25px;
+}
+
+.loginInfo {
+  width: 100%;
+  height: 30vh;
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email {
+  width: 60%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 18px;
+  background-color: lightgrey;
+}
+.password {
+  width: 60%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 15px;
+  outline: none;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 18px;
+  background-color: lightgrey;
+}
+.signIn {
+  width: 20%;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: turquoise;
+  outline: none;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+.signIn:hover {
+  background-color: transparent;
+}
+
+.right {
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(65, 173, 173);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 8px;
+  animation: coolAnimation 1.5s;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+@keyframes coolAnimation {
+  from {
+    height: 0vh;
+    background-color: transparent;
+  }
+  to {
+    height: 100vh;
+  }
+}
+.newHere {
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+.earnMoney {
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  /* margin:20px 7px; */
+  /* text-align: center; */
+}
+.signup {
+  width: 50%;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+.signup:hover {
+  background-color: transparent;
+}
+
+/* .tasksResult{
+    width: 90%;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.tasksResult {
+  width: 90%;
+  height: auto;
+  margin-top: 40px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  border-radius: 10px;
+}
+.tasksResult p{
+  margin-top:10px ;
+}
+.tasksFunctions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px 50px  */
+  /* background-color: rgb(209, 15, 15); */
+}
+.valueOfTask {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: aqua; */
+  border-bottom: 1px solid black;
+  /* padding: 5px; */
+  margin: 1px;
+}
+.valueOfTask h1 {
+  flex: 1;
+  height: auto;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.valueOfTask h2 {
+flex: 1;
+  height: auto;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.valueOfTask button {
+  width: 15%;
+  background-color: turquoise;
+  height: 40px;
+  margin-right: 5px;
+  /* margin-bottom: 10px; */
+  font-size: 20px;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+}
+.valueOfTask button:hover {
+  background-color: transparent;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="loginPage">
+      <div class="left">
+        <div class="mainDiv">
+          <div class="logo">
+            <div class="icon">
+              <img src="./static/home.svg" />
+            </div>
+            <h1 class="home">Home</h1>
+          </div>
+          <div class="title">
+            <h2>Login to Your Account</h2>
+            <h3>Login using social networks</h3>
+          </div>
+          <div class="socialMedia">
+            <div class="first"><p>f</p></div>
+            <div class="second"><p>G+</p></div>
+            <div class="first"><p>in</p></div>
+          </div>
+
+          <div class="loginInfo">
+            <input class="email" type="text" placeholder="Email" />
+            <input class="password" type="text" placeholder="Password" />
+            <button onclick="addValue()" class="signIn">Sign In</button>
+          </div>
+        </div>
+        <div class="tasksResult">
+
+        </div>
+      </div>
+      <div class="right">
+        <div class="closeBtn">
+            <img onclick="imgTaks()" class="canclebtn" src="./static/close_black_24dp.svg" alt="cancleBtn" />
+          </div>
+        <h1 class="newHere">New Here ?</h1>
+        <h1 class="earnMoney">
+          Sign up and discover a great amount of new opportunities!
+        </h1>
+        <button onclick="newAccount()" class="signup">Sign up</button>
+        <!-- <button onclick="backgroundbtn()" class="clickhere">Click Here</button> -->
+
+      </div>
+    </div>
+    <script src="./index.js" />
+  </body>
+</html>
