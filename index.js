@@ -1,3 +1,4 @@
+console.log("Working")
 function addValue() {
   var enterEmail = document.querySelector(".email");
   var enterPassword = document.querySelector(".password");
